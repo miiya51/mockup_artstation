@@ -5,6 +5,10 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+.article-count {
+  font-size: 120%;
+}
+
 .profile.icon {
   color: #000;
   position: absolute;
