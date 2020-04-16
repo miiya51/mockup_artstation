@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
+ 
+.mono {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 .user-icon {
   position:relative;
   overflow: hidden;
