@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700');
- 
+
+body {
+  background-color: whitesmoke;
+} 
+
 .mono {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -21,4 +25,35 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   height:100%;
+}
+
+.user_profile_img{
+  position:relative;
+  overflow: hidden;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background-color: whitesmoke;
+}
+
+.user_profile_img img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  height:100%;
+}
+
+.user_name {
+  text-align: center;
+}
+
+.a {
+  background-color: springgreen;
+}
+
+.b {
+  background-color: steelblue;
 }
