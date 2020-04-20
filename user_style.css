@@ -27,7 +27,12 @@ body {
   height:100%;
 }
 
-.user_profile_img{
+.user_profile_content{
+  text-align: center;
+  background-color: lemonchiffon;
+}
+
+.user_profile_image{
   position:relative;
   overflow: hidden;
   width:50px;
@@ -36,7 +41,7 @@ body {
   background-color: whitesmoke;
 }
 
-.user_profile_img img{
+.user_profile_image img{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -46,14 +51,29 @@ body {
   height:100%;
 }
 
-.user_name {
-  text-align: center;
+.user_active_content {
+  background-color: gray;
 }
 
-.a {
-  background-color: springgreen;
+.head-border {
+display: flex;
+align-items: center;
+letter-spacing: .14em;
+height: 100px;
+font-family: 'Roboto Condensed', sans-serif;
 }
-
-.b {
-  background-color: steelblue;
+.head-border:before,
+.head-border:after {
+content: "";
+height:1px;
+flex-grow: 1;
+background-color:#666;
+}
+.head-border:before {
+margin-right: 1rem;
+background: linear-gradient(-90deg, #666, transparent);
+}
+.head-border:after {
+margin-left: 1rem;
+background: linear-gradient(90deg, #666, transparent);
 }
