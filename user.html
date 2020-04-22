@@ -11,6 +11,7 @@
 </head>
 
 <body>
+  <!-- ヘッダー　共通化したい -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand mono" href="index.html">ArtStation</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -32,6 +33,15 @@
       </ul>
     </div>
   </nav>
+  <!-- ヘッダー終わり -->
+  <nav>
+    <ol class="breadcrumb mb-1">
+      <li class="breadcrumb-item"><a href="#">HOME</a></li>
+      <li class="breadcrumb-item active" aria-current="page"><a href="#">ユーザプロフィール</a></li>
+    </ol>
+  </nav>
+
+  <!-- ユーザ詳細 -->
   <div class="container">
     <div class="user_content row mt-5">
       <div class="user_profile_content rounded col-sm-4 col-sm-offset-2">
@@ -67,6 +77,9 @@
 
     </div>
   </div>
+  <!-- ユーザ詳細END -->
+
+  <!-- ユーザ投稿一覧 -->
   <div class="container">
     <ul class="list-group col-sm-12">
       <h2 class="head-border">
@@ -159,7 +172,7 @@
       </li>
     </ul>
   </div>
-
+  <!-- ユーザ投稿一覧END -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
